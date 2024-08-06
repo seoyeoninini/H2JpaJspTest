@@ -1,0 +1,10 @@
+server:
+  port: 9090
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  jpa:
+      show-sql: true
